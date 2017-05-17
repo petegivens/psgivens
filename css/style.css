@@ -1,0 +1,12 @@
+.navbar-brand {
+  font-size: 3rem;
+}
+
+.img-maxwidth-100 {
+  max-width: 100%;
+  height: auto;
+}
+
+/*.card .btn {
+  text-align: left;
+}*/
