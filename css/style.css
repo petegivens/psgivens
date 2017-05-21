@@ -16,9 +16,39 @@ body {
 }
 
 .icon {
-  max-width: 48px;
+  max-width: 24px;
+  vertical-align: middle;
 }
 
 .footer-text {
   color: rgba(255, 255, 255, 0.5);
 }
+
+.bg-footer {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* This is supposed to create responsive text sizing but it's not working
+
+.display-2 {
+  font-size: 2rem;
+}
+
+@include media-breakpoint-up(sm) {
+  .display-2 {
+    font-size: 3rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .display-2 {
+    font-size: 3.5rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .display-2 {
+    font-size: 4.5rem;
+  }
+}
+*/
