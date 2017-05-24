@@ -32,7 +32,11 @@ body {
   box-shadow: 3px 3px gray, -1em 0 0.6em grey;
 }
 
-#about {
+.bg-white {
+  background-color: rgb(255, 255, 255);
+}
+
+#about, #contact {
   border-radius: 5px;
 }
 
