@@ -1,6 +1,10 @@
 body {
   background:#b3adad;
 }
+
+label {
+  max-width: 100%;
+}
 .navbar {
   box-shadow: 3px 3px gray, -1em 0 0.6em grey;
 }
@@ -36,9 +40,6 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-#about, #contact {
-  border-radius: 5px;
-}
 
 /* This is supposed to create responsive text sizing but it's not working
 
