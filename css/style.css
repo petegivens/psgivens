@@ -1,6 +1,11 @@
 body {
   background:#b3adad;
 }
+
+.avatar {
+  max-width: 100%;
+  max-height: auto;
+}
 .navbar {
   box-shadow: 3px 3px gray, -1em 0 0.6em grey;
 }
@@ -39,6 +44,78 @@ body {
 #about, #contact {
   border-radius: 5px;
 }
+
+
+
+
+
+
+@media (min-width: 400px) {
+  h1 {
+    font-size: 2.5rem!important;
+  }
+  h2 {
+    font-size: 1rem!important;
+  }
+  .avatar {
+    max-width: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size:2.5rem!important;
+  }
+  h2 {
+    font-size: 1.25rem!important;
+  }
+  .avatar {
+    max-width:100%;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 4.5rem!important;
+  }
+  h2 {
+    font-size: 1.75rem!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 5.5rem!important;
+  }
+  h2 {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+/* Attempt #2 at responseive font-sizing
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+*/
+
 
 /* This is supposed to create responsive text sizing but it's not working
 
