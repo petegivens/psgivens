@@ -1,15 +1,14 @@
-body {
+gitbody {
   background:#b3adad;
 }
 
-<<<<<<< HEAD
 .avatar {
   max-width: 100%;
   max-height: auto;
-=======
+
 label {
   max-width: 100%;
->>>>>>> refs/remotes/origin/master
+
 }
 .navbar {
   box-shadow: 3px 3px gray, -1em 0 0.6em grey;
